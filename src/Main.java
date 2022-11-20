@@ -24,7 +24,6 @@ public class Main {
         System.out.println(lazyHolder);
 
         //Strategy - utiliza muito o pilar de Polimorfismo
-
         Comportamento normal = new ComportamentoNormal();
         Comportamento agressivo = new ComportamentoAgressivo();
         Comportamento defensivo = new ComportatmentoDefensivo();
@@ -45,7 +44,6 @@ public class Main {
         robo.mover();
 
         // Facade
-
         Facade facade = new Facade();
         facade.migrarCliente("Thais", "22035699");
 
